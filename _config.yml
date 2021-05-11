@@ -15,7 +15,7 @@ website: https://github.com/hwangjunhong
 darkmode: false
 
 # Social links
-github_username:  sproogen
+github_username:  hwangjunhong
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -26,10 +26,6 @@ github_username:  sproogen
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
