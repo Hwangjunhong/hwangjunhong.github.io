@@ -1,18 +1,18 @@
 # Site
-repository: sproogen/resume-theme
+repository: Hwangjunhong/hwangjunhong.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Hwang Junhong
+title: Junior Android Software Engineer
+email: ghkdwnsghd1@naver.com
+website: https://github.com/hwangjunhong
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
 twitter_username: facespics
