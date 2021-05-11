@@ -42,7 +42,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name’s Hwang Junhong and I’m a junior android software Engineer
 
-  I am most skilled in: <mark>Android</mark> and <mark>Java</mark> <mark>Kotlin</mark></p>
+  I am most skilled in: Android and Java Kotlin
 
 content:
   - title: Projects # Title for the section
