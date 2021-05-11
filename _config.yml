@@ -125,3 +125,5 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
+ darkmode: true (options: true, false, never)
