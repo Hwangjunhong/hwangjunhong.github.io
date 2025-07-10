@@ -1,13 +1,13 @@
 ---
 layout: default
 title: "홈"
-description: "사용자 친화적인 서비스를 만드는 7년차 개발자 홍마드의 포트폴리오"
+description: "사용자 친화적인 서비스를 만드는 7년차 개발자 황준홍의 포트폴리오"
 ---
 
 <section class="hero">
     <div class="container">
         <div class="hero-content fade-in">
-            <h1 class="hero-title">안녕하세요, 홍마드입니다</h1>
+            <h1 class="hero-title">안녕하세요, 황준홍입니다</h1>
             <p class="hero-subtitle">
                 사용자 친화적인 서비스를 만드는 7년차 개발자로,<br>
                 대규모 B2C 서비스부터 창업까지 다양한 경험을 바탕으로<br>

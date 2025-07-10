@@ -1,11 +1,11 @@
 # Site Settings
-title: "홍마드 | 개발자 포트폴리오"
-description: "사용자 친화적인 서비스를 만드는 7년차 개발자 홍마드의 포트폴리오"
+title: "황준홍 | 개발자 포트폴리오"
+description: "사용자 친화적인 서비스를 만드는 7년차 개발자 황준홍의 포트폴리오"
 baseurl: ""
 url: "https://hwangjunhong.github.io"
 
 # Personal Information
-name: "홍마드"
+name: "황준홍"
 title: "7년차 풀스택 개발자"
 email: "ghkdwnsghd1@naver.com"
 github: "hwangjunhong"
