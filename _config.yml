@@ -1,113 +1,54 @@
-# Site
-repository: Hwangjunhong/hwangjunhong.github.io
-favicon: images/favicon.ico
+# Site Settings
+title: "홍마드 | 개발자 포트폴리오"
+description: "사용자 친화적인 서비스를 만드는 7년차 개발자 홍마드의 포트폴리오"
+baseurl: ""
+url: "https://hwangjunhong.github.io"
 
-# Content configuration version
-version: 2
+# Personal Information
+name: "홍마드"
+title: "7년차 풀스택 개발자"
+email: "ghkdwnsghd1@naver.com"
+github: "hwangjunhong"
+blog: "https://jjjhong.tistory.com/"
 
-# Personal info
-name: Hwang Junhong
-title: Junior Android Software Engineer
-email: ghkdwnsghd1@naver.com
-website: https://jjjhong.tistory.com/
+# Site Configuration
+permalink: /:categories/:title/
+timezone: Asia/Seoul
+encoding: utf-8
 
-# Dark Mode (true/false/never)
-darkmode: false
-
-# Social links
-github_username:  hwangjunhong
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# xing_username: jekyll
-# pinterest_username: jekyll
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
-# About Section
-# about_title: About Me
-about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name’s Hwang Junhong and I’m a junior android software Engineer
-
-  I am most skilled in: <mark>Android</mark> and <mark>Java</mark> <mark>Kotlin</mark>
-
-content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/hwangjunhong
-        # link_text: Project Website
-        additional_links:
-          - title:  hwangjunhong.github.io
-            icon: fab fa-github
-            url: https://github.com/Hwangjunhong
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          aaaaaaaaaaa.
-        description: | # this will include new lines to allow paragraphs
-          AAAAAAAAAAAAAAA.
-
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: O2O
-        link: http://o2opayment.co.kr/
-        # link_text: boringcompany.com
-        sub_title: Junior Android Software Engineer
-        caption: December 2020 - Present
-        quote: >
-          aaaaaaaaaaa.
-        description: | # this will include new lines to allow paragraphs
-            AAAAAAAAAAAAA.
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Kangnam University
-        caption: 2015 - 2017
-        sub_title: Computer Science
-        quote: >
-          AAAAAAAAAA
-        description: | # this will include new lines to allow paragraphs
-          AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Exercise
-      - Singing a song
-      - Reading a book
-
-# Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
-
-# Build settings
-remote_theme: sproogen/resume-theme
-
+# Build Settings
+markdown: kramdown
+highlighter: rouge
 sass:
   sass_dir: _sass
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+
+# Collections
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "portfolio"
+    values:
+      layout: "portfolio"

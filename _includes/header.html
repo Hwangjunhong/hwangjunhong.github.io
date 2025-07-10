@@ -1,0 +1,48 @@
+<header class="header">
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="{{ '/' | relative_url }}" class="navbar-brand">
+                <h1>홍마드</h1>
+            </a>
+            
+            <button class="navbar-toggle" id="navbar-toggle">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            
+            <ul class="navbar-menu" id="navbar-menu">
+                <li class="navbar-item">
+                    <a href="{{ '/' | relative_url }}" class="navbar-link {% if page.url == '/' %}active{% endif %}">
+                        <i class="fas fa-home"></i>
+                        <span>홈</span>
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="{{ '/about' | relative_url }}" class="navbar-link {% if page.url == '/about/' %}active{% endif %}">
+                        <i class="fas fa-user"></i>
+                        <span>소개</span>
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="{{ '/portfolio' | relative_url }}" class="navbar-link {% if page.url == '/portfolio/' %}active{% endif %}">
+                        <i class="fas fa-briefcase"></i>
+                        <span>포트폴리오</span>
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="{{ '/experience' | relative_url }}" class="navbar-link {% if page.url == '/experience/' %}active{% endif %}">
+                        <i class="fas fa-chart-line"></i>
+                        <span>경력</span>
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="{{ '/contact' | relative_url }}" class="navbar-link {% if page.url == '/contact/' %}active{% endif %}">
+                        <i class="fas fa-envelope"></i>
+                        <span>연락</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header> 
