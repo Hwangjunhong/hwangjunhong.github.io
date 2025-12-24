@@ -1,4 +1,5 @@
 google.com, pub-6928646594251594, DIRECT, f08c47fec0942fa0
+vungle.com, 694bae6ff1cb4af17a82627d, DIRECT, c107d686becd2d77
 33across.com, 0010b00002MptSLAAZ, RESELLER, bbea06d9c4d2853c
 aceex.io, 1926, RESELLER, b1cf3c874d5c6682
 adform.com, 716, RESELLER
